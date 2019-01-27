@@ -128,6 +128,9 @@ class Handler(BaseHandler):
         for each in response.doc('a[href^="http://club.kdnet.net/dispbbs.asp?id="]').items():
             self.crawl(each.attr.href, callback=self.detail_page)
 
+        for each in response.doc('div.postlist-page a[href^="http://club.kdnet.net/list.asp?boardid="]').items():
+            self.crawl(each.attr.href, callback=self.hotplate_page)
+
     @config(priority=2)
     def detail_page(self, response):
         # 把所有的user存入user表
