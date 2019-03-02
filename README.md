@@ -1,6 +1,5 @@
-- 牛客网第11课和12课学习代码:;
-- 包括requests,pymysql,pyquery,和pyspider库的学习
-- 自己写了kdnet的爬虫,为wenda网站添加数据
-- 知乎和v2ex爬不下来
-- todo:知乎和v2ex爬虫
-- v2ex总是被重定向
+- 牛客网第11课和12课学习代码;
+  - 包括requests,pymysql,pyquery,和pyspider库
+- 写了kdnet的爬虫,为wenda网站添加数据
+- mysql、redis的数据备份在这里，以便于向阿里云服务器迁移
+- 知乎和v2ex爬不下来,不能用，v2ex总是被重定向
